@@ -34,7 +34,7 @@ My interests include:
 | [African NLP Classifier](#) | Classifies local language tweets/news headlines | spaCy, TF-IDF, scikit-learn | *Coming soon* |
 | [Transformer Summarizer](#) | Fine-tuned HuggingFace model to summarize news | Transformers, PyTorch | *Coming soon* |
 | [Resume-Job Match AI Tool](#) | NLP-based CV and job spec matcher | spaCy, Streamlit | *Coming soon* |
-| [AI Interview Coach](#) | GPT-based assistant for practicing DS interviews | OpenAI, LangChain | *Coming soon* |
+| [Car Wash Website](/car-wash/index.html) | Just a simple car wash page | HTML, CSS, JavaScript |
 
 ---
 
