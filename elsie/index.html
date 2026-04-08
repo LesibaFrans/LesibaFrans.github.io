@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elsie's Beauty Bar</title>
+  <meta
+    name="description"
+    content="Elsie's Beauty Bar offers hair, nails, spa treatments, lashes, makeup, and beauty care in a polished, pink-inspired setting."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Elsie's Beauty Bar home">
+        <span class="brand-mark">
+          <span class="brand-heart"></span>
+          <span class="brand-bow">
+            <span></span>
+            <span></span>
+          </span>
+        </span>
+        <span class="brand-copy">
+          <strong>Elsie's</strong>
+          <span>Beauty Bar</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#bookings">Bookings</a>
+        <a href="#contact">Contact</a>
+        <a href="#reviews">Reviews</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Luxury beauty, soft glam, polished results</p>
+          <h1>Modern beauty care with a signature pink touch.</h1>
+          <p class="lead">
+            Hair, nails, lashes, spa treatments, makeup, and confidence-boosting beauty appointments,
+            all styled into one elegant experience at Elsie's Beauty Bar.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#bookings">Book an Appointment</a>
+            <a class="button button-secondary" href="#services">Explore Services</a>
+          </div>
+
+          <div class="hero-highlights">
+            <article>
+              <strong>All-in-one beauty studio</strong>
+              <span>Hair, nails, spa, lashes, brows, and glam sessions.</span>
+            </article>
+            <article>
+              <strong>Elegant, easy booking</strong>
+              <span>Quick service selection with clear contact details.</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1" aria-hidden="true">
+          <div class="beauty-frame">
+            <div class="beauty-card card-large">
+              <span class="service-tag">Hair Styling</span>
+              <span class="service-time">Signature finish</span>
+            </div>
+            <div class="beauty-card card-small card-top">
+              <span class="service-tag">Lash Sets</span>
+              <span class="service-time">Soft glam</span>
+            </div>
+            <div class="beauty-card card-small card-bottom">
+              <span class="service-tag">Nail Studio</span>
+              <span class="service-time">Classic to bold</span>
+            </div>
+            <div class="floating-icon icon-heart"></div>
+            <div class="floating-icon icon-bow">
+              <span></span>
+              <span></span>
+            </div>
+            <div class="floating-icon icon-sparkle"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Beauty services designed for everyday glow and special moments.</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <div class="card-icon">01</div>
+            <h3>Hair</h3>
+            <p>Cuts, silk press, braids, installs, styling, treatments, and occasion-ready looks.</p>
+          </article>
+          <article class="service-card reveal delay-1">
+            <div class="card-icon">02</div>
+            <h3>Nails</h3>
+            <p>Manicures, gel polish, acrylics, nail art, sculpted sets, and simple clean finishes.</p>
+          </article>
+          <article class="service-card reveal delay-2">
+            <div class="card-icon">03</div>
+            <h3>Spa</h3>
+            <p>Relaxing facials, skin prep, massages, body treatments, and glow-focused self-care sessions.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="card-icon">04</div>
+            <h3>Lashes</h3>
+            <p>Classic, hybrid, volume lash sets, touch-ups, lash lift options, and brow polishing.</p>
+          </article>
+          <article class="service-card reveal delay-1">
+            <div class="card-icon">05</div>
+            <h3>Makeup</h3>
+            <p>Soft glam, bridal looks, event makeup, photoshoot prep, and long-wear finishing touches.</p>
+          </article>
+          <article class="service-card reveal delay-2">
+            <div class="card-icon">06</div>
+            <h3>Beauty Packages</h3>
+            <p>Custom combinations for birthdays, weddings, shoots, pamper days, and weekend refreshes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="bookings section" id="bookings">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Bookings</p>
+          <h2>Simple, stylish booking details without the clutter.</h2>
+        </div>
+
+        <div class="booking-layout">
+          <div class="booking-panel reveal">
+            <h3>Booking Menu</h3>
+            <p>
+              This is a static preview for now, designed to feel like a real booking flow while staying simple.
+            </p>
+
+            <form class="booking-form">
+              <label>
+                Full Name
+                <input type="text" placeholder="Your name">
+              </label>
+              <label>
+                Service
+                <select>
+                  <option>Choose a service</option>
+                  <option>Hair Appointment</option>
+                  <option>Nail Appointment</option>
+                  <option>Spa Treatment</option>
+                  <option>Lash Appointment</option>
+                  <option>Makeup Session</option>
+                  <option>Beauty Package</option>
+                </select>
+              </label>
+              <label>
+                Preferred Date
+                <input type="date">
+              </label>
+              <label>
+                Notes
+                <textarea rows="4" placeholder="Tell us what style or treatment you want."></textarea>
+              </label>
+              <button class="button button-primary" type="button">Request Booking</button>
+            </form>
+          </div>
+
+          <aside class="booking-side reveal delay-1">
+            <div class="mini-card">
+              <span class="mini-title">Popular Picks</span>
+              <ul>
+                <li>Soft glam + lashes</li>
+                <li>Signature nail art set</li>
+                <li>Silk press + treatment</li>
+                <li>Facial glow session</li>
+              </ul>
+            </div>
+            <div class="mini-card">
+              <span class="mini-title">Studio Hours</span>
+              <p>Mon - Sat: 9:00 AM - 6:30 PM</p>
+              <p>Sunday: By appointment</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact-panel reveal">
+          <div class="section-heading left">
+            <p class="eyebrow">Contact</p>
+            <h2>Reach Elsie's Beauty Bar with one quick glance.</h2>
+          </div>
+
+          <div class="contact-grid">
+            <article>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+270000000000">+27 00 000 0000</a>
+            </article>
+            <article>
+              <span class="contact-label">Email</span>
+              <a href="mailto:hello@elsiesbeautybar.com">hello@elsiesbeautybar.com</a>
+            </article>
+            <article>
+              <span class="contact-label">Location</span>
+              <p>123 Beauty Avenue, Johannesburg</p>
+            </article>
+            <article>
+              <span class="contact-label">Instagram</span>
+              <a href="#">@elsiesbeautybar</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews section" id="reviews">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Reviews</p>
+          <h2>Client love, styled into a clean rotating showcase.</h2>
+        </div>
+
+        <div class="reviews-shell reveal delay-1">
+          <div class="reviews-track">
+            <article class="review-card is-active">
+              <p>
+                "My hair and lashes looked flawless. The whole studio feels polished, feminine, and very professional."
+              </p>
+              <strong>Nomsa K.</strong>
+            </article>
+            <article class="review-card">
+              <p>
+                "I booked nails and a facial and left feeling completely refreshed. Beautiful service from start to finish."
+              </p>
+              <strong>Keletso M.</strong>
+            </article>
+            <article class="review-card">
+              <p>
+                "Perfect glam for my event. Clean work, friendly energy, and the pink aesthetic is honestly gorgeous."
+              </p>
+              <strong>Lerato P.</strong>
+            </article>
+          </div>
+
+          <div class="review-controls" aria-label="Review controls">
+            <button class="review-button prev" type="button" aria-label="Previous review">Previous</button>
+            <div class="review-dots" aria-label="Review indicators"></div>
+            <button class="review-button next" type="button" aria-label="Next review">Next</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Elsie's Beauty Bar</p>
+      <span>Beauty that feels soft, styled, and memorable.</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
